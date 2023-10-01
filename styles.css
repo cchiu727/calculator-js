@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Roboto+Mono&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: fit-content;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.buffer-container {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 15px 10px;
+}
+
+.buffer {
+    font-size: 20px;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 25px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+
+.input-btn {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 20%;
+}
+
+.input-btn.num {
+    background-color: #363636;
+    color: white;
+}
+
+.input-btn.num:active {
+    background-color: #777777;
+}
+
+.input-btn.oper {
+    background-color:#c7c7c7;
+}
+
+.input-btn.oper:active {
+    background-color:#f1f1f1;
+}
+
+.input-btn.buff {
+    background-color:#ffbb00;
+}
+
+.input-btn.buff:active {
+    background-color:#ffde82;
+}
+
