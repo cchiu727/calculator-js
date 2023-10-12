@@ -6,42 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <main id="calculator-container" class="calculator-container">
         <div id="buffer-container" class="buffer-container">
-            <p id="buffer" class="buffer">Buffer</p>
+            <p id="buffer" class="buffer">0</p>
         </div>
         <div id="input-container" class="input-container">
             <div id="input-row-1" class="input-row left">
-                <button id="operation-btn-negative" class="input-btn oper">(-)</button>
+                <button id="operation-btn-negative" class="input-btn oper" value="-">(-)</button>
                 <button id="buffer-btn-backspace" class="input-btn buff">←</button>
                 <button id="buffer-btn-clear" class="input-btn buff">Clr</button>
             </div>
             <div id="input-row-2" class="input-row">
-                <button id="number-btn-7" class="input-btn num">7</button>
-                <button id="number-btn-8" class="input-btn num">8</button>
-                <button id="number-btn-9" class="input-btn num">9</button>
-                <button id="operation-btn-divide" class="input-btn oper">÷</button>
+                <button id="number-btn-7" class="input-btn num" value="7">7</button>
+                <button id="number-btn-8" class="input-btn num" value="8">8</button>
+                <button id="number-btn-9" class="input-btn num" value="9">9</button>
+                <button id="operation-btn-divide" class="input-btn oper" value="/">÷</button>
             </div>
             <div id="input-row-3" class="input-row">
-                <button id="number-btn-4" class="input-btn num">4</button>
-                <button id="number-btn-5" class="input-btn num">5</button>
-                <button id="number-btn-6" class="input-btn num">6</button>
-                <button id="operation-btn-multiply" class="input-btn oper">×</button>
+                <button id="number-btn-4" class="input-btn num" value="4">4</button>
+                <button id="number-btn-5" class="input-btn num" value="5">5</button>
+                <button id="number-btn-6" class="input-btn num" value="6">6</button>
+                <button id="operation-btn-multiply" class="input-btn oper" value="*">×</button>
             </div>
             <div id="input-row-4" class="input-row">
-                <button id="number-btn-1" class="input-btn num">1</button>
-                <button id="number-btn-2" class="input-btn num">2</button>
-                <button id="number-btn-3" class="input-btn num">3</button>
-                <button id="operation-btn-subtract" class="input-btn oper">-</button>
+                <button id="number-btn-1" class="input-btn num" value="1">1</button>
+                <button id="number-btn-2" class="input-btn num" value="2">2</button>
+                <button id="number-btn-3" class="input-btn num" value="3">3</button>
+                <button id="operation-btn-subtract" class="input-btn oper" value="-">-</button>
                 
             </div>
             <div id="input-row-5" class="input-row">
-                <button id="number-btn-0" class="input-btn num">0</button>
-                <button id="operation-btn-point" class="input-btn oper">.</button>
-                <button id="operation-btn-equal" class="input-btn oper">=</button>
-                <button id="operation-btn-add" class="input-btn oper">+</button>
+                <button id="number-btn-0" class="input-btn num" value="0">0</button>
+                <button id="operation-btn-point" class="input-btn oper" value=".">.</button>
+                <button id="evaluate-btn-" class="input-btn oper" value="=">=</button>
+                <button id="operation-btn-add" class="input-btn oper" value="+">+</button>
             </div>
         </div>
     </main>
